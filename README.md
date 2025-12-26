@@ -16,6 +16,14 @@
 - Passport.js
 - JWT
 
+
+## Login Fail :
+-.env file fillup recommended
+-mongodb connection and JWT secret key
+-google client ID and secret to SignUp through Google
+-facebook client ID and secret to SignUp through Facebook
+-twitter client ID and secret to SignUp through twitter
+
 ## Setup
 
 
@@ -23,7 +31,7 @@
 ### Backend
 cd server
 npm install
-npm run dev
+nodemon server.js
 
 ###Frontend
 
